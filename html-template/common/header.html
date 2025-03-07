@@ -36,14 +36,6 @@ $def with (sp_title, current_subdomain)
             </a>
           </li>
           
-          <!-- Browse -->
-          <li class="nav-item">
-            <a class="nav-link fw-semibold px-3 ${'active' if current_subdomain == 'browse' else ''}" 
-               href="https://browse.opencitations.net">
-              Browse
-            </a>
-          </li>
-          
           <!-- SPARQL dropdown menu -->
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle fw-semibold px-3 ${'active' if current_subdomain == 'sparql' else ''}"
@@ -98,9 +90,9 @@ $def with (sp_title, current_subdomain)
           
           <!-- Dataset Downloads link -->
           <li class="nav-item">
-            <a class="nav-link fw-semibold px-3 ${'active' if current_subdomain == 'downloads' else ''}"
-               href="https://downloads.opencitations.net">
-              Dataset Downloads
+            <a class="nav-link fw-semibold px-3 ${'active' if current_subdomain == 'download' else ''}"
+               href="https://download.opencitations.net">
+              Download
             </a>
           </li>
         </ul>
