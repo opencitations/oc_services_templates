@@ -131,14 +131,23 @@ main {
     .navbar-nav .nav-link {
         text-align: center !important;
     }
+    
     .dropdown-item {
         text-align: center !important;
     }
-        .dropdown-menu {
+    
+    .dropdown-menu {
         position: static !important;
         width: 100% !important;
         border: none !important;
         box-shadow: none !important;
         background: transparent !important;
+    }
+    
+    .navbar-collapse {
+        background-color: transparent !important;
+        border: none !important;
+        border-bottom: none !important;
+        box-shadow: none !important;
     }
 }
