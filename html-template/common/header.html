@@ -79,9 +79,9 @@ $if current_subdomain == 'search' and web.ctx.path.startswith('/search'):
       <li class="breadcrumb-item"><a href="https://search.opencitations.net">Search</a></li>
       <li class="breadcrumb-item active" aria-current="page">
         $if query_params.rule == "citeddoi" and query_params.text:
-          Cited by $query_params.text
+          Citing $query_params.text
         $elif query_params.rule == "citingdoi" and query_params.text:
-          References in $query_params.text
+          Cited by $query_params.text
         $else:
           Current Search
       </li>
