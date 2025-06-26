@@ -206,3 +206,12 @@ main {
 .nav-link-main::after {
   display: none !important;
 }
+
+/* Center navigation menu ignoring logo position only on desktop */
+@media (min-width: 992px) {
+  .navbar-nav-centered {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
