@@ -184,6 +184,13 @@ main {
     display: block;
     animation: fadeIn 0.2s ease;
   }
+
+  /* Center navigation menu ignoring logo position only on desktop */
+  .navbar-nav-centered {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+  }
   
   @keyframes fadeIn {
     from {
