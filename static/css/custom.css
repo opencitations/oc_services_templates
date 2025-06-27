@@ -184,6 +184,13 @@ main {
     display: block;
     animation: fadeIn 0.2s ease;
   }
+
+  /* Center navigation menu ignoring logo position only on desktop */
+  .navbar-nav-centered {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+  }
   
   @keyframes fadeIn {
     from {
@@ -205,13 +212,4 @@ main {
 /* Remove default Bootstrap dropdown arrow from main links */
 .nav-link-main::after {
   display: none !important;
-}
-
-/* Center navigation menu ignoring logo position only on desktop */
-@media (min-width: 992px) {
-  .navbar-nav-centered {
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-  }
 }
