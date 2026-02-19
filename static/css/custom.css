@@ -234,6 +234,6 @@ footer {
 .yasqe_queryButton {
   margin-right: 20px!important;
 }
-.CodeMirror-scroll {
-  margin-right: 58px!important;
+.CodeMirror-lines {
+  padding-right: 100px!important;
 }
