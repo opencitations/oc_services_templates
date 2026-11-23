@@ -10,3 +10,7 @@ h1 {
 body {
     text-align: left !important;
 }
+
+dd {
+    overflow-wrap: anywhere;
+}
